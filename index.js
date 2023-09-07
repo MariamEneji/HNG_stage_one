@@ -1,8 +1,6 @@
 const showTime = () => {
     let date = new Date()
 
-    console.log(date)
-
     let weekday = [
         'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'
     ]
