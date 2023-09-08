@@ -8,17 +8,18 @@ const showTime = () => {
     let hours = date.getHours()
     let minutes = date.getMinutes()
     let seconds = date.getSeconds()
+    let milliseconds = date.getMilliseconds()
 
     let weekDay = weekday[date.getDay()]
 
-    let time = (hours - 1) + ':' + minutes + ':' + seconds + ' ' + 'UTC' 
+    let time = (hours - 1) + ':' + minutes + ':' + seconds + ':' + milliseconds 
 
 
 
-    document.getElementById('weekday').innerHTML = "Today" + ' ' + 'is' + ' ' + weekDay;
-    document.getElementById('utcTime').innerHTML = "The" + ' '+ 'time' + ' ' + 'is' + ' ' +time;
+    document.getElementById('weekday').innerHTML = weekDay;
+    document.getElementById('utcTime').innerHTML = time;
 
-    setTimeout(showTime, 1000)
+    setTimeout(showTime)
 
 
 
