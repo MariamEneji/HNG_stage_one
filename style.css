@@ -27,7 +27,7 @@ h3{
     justify-content: center;
     display: flex;
     background-color: #090f13;
-    color: #30535f;
+    color: #84afbd;
     width: 50%;
     text-align: left;
     padding: 3em;
@@ -61,7 +61,7 @@ li{
     justify-content: center;
     gap: 1em;
     background-color: #090f13;
-    color: #30535f;
+    color: #84afbd;
     padding: 1em 0;
     width: 50%;
     height: 100vh;
